@@ -24,7 +24,7 @@ export default function FooterPanel() {
           <div className="flex items-center gap-3">
             <Radio className="w-4 h-4 text-primary" />
             <span className="font-heading text-lg tracking-[0.2em] uppercase text-foreground">
-              GO COMMS
+              GOLF OSCAR COMMUNICATION
             </span>
           </div>
 
@@ -45,7 +45,7 @@ export default function FooterPanel() {
         {/* Classification bar */}
         <div className="mt-8 pt-4 border-t border-border/50 text-center">
           <p className="font-mono text-[9px] tracking-[0.3em] uppercase text-muted-foreground/60">
-            &copy; {year} GO COMMS &bull; ALL RIGHTS RESERVED &bull; UNCLASSIFIED // FOUO
+            &copy; {year} GOLF OSCAR COMMUNICATION &bull; ALL RIGHTS RESERVED &bull; UNCLASSIFIED // FOUO
           </p>
         </div>
       </div>

@@ -38,7 +38,7 @@ export default function TacticalNav() {
           <a href="#" className="flex items-center gap-2">
             <Radio className="w-4 h-4 text-primary" />
             <span className="font-heading text-sm tracking-[0.25em] uppercase text-foreground">
-              GO COMMS
+              GOLF OSCAR COMMUNICATION
             </span>
           </a>
 

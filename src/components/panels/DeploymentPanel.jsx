@@ -7,20 +7,20 @@ import PanelFrame from "./PanelFrame";
 import { motion } from "framer-motion";
 
 const capabilities = [
-  { label: "Deployment Readiness", value: 98, unit: "%" },
-  { label: "Operational Range", value: 5000, unit: "km" },
-  { label: "Network Uptime", value: 99.7, unit: "%" },
+  { label: "Deployment Readiness", value: 5, unit: "%" },
+  { label: "Operational Range", value: 0, unit: "km" },
+  { label: "Network Uptime", value: 0, unit: "%" },
   { label: "Encryption Standard", value: "AES-256", unit: "" },
-  { label: "Frequency Bands", value: "HF/VHF/UHF/SHF", unit: "" },
-  { label: "Max Concurrent Nodes", value: 128, unit: "nodes" },
+  { label: "Frequency Bands", value: "UHF", unit: "" },
+  { label: "Max Concurrent Nodes", value: 10, unit: "nodes" },
 ];
 
 const environments = [
-  "Arctic / Sub-Zero",
-  "Desert / Extreme Heat",
-  "Maritime / Littoral",
+  "Issolated / No Cell Reception",
+  "Festivals / Busy Events",
+  "Schools / Temporary Solutions",
   "Urban / Dense",
-  "Jungle / Tropical",
+  "Security / Saftey Focused Ops",
   "Mountain / High Altitude",
 ];
 
